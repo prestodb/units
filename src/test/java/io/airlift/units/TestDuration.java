@@ -15,7 +15,7 @@
  */
 package io.airlift.units;
 
-import io.airlift.json.JsonCodec;
+import com.facebook.airlift.json.JsonCodec;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -24,7 +24,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.concurrent.TimeUnit;
 
-import static io.airlift.testing.EquivalenceTester.comparisonTester;
+import static com.facebook.airlift.testing.EquivalenceTester.comparisonTester;
 import static io.airlift.units.Duration.succinctDuration;
 import static io.airlift.units.Duration.succinctNanos;
 import static java.util.concurrent.TimeUnit.DAYS;

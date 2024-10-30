@@ -10,9 +10,9 @@
     <url>https://github.com/airlift/units</url>
 
     <parent>
-        <groupId>io.airlift</groupId>
+        <groupId>com.facebook.airlift</groupId>
         <artifactId>airbase</artifactId>
-        <version>91</version>
+        <version>104-SNAPSHOT</version>
     </parent>
 
     <inceptionYear>2016</inceptionYear>
@@ -66,16 +66,16 @@
         </dependency>
 
         <dependency>
-            <groupId>io.airlift</groupId>
+            <groupId>com.facebook.airlift</groupId>
             <artifactId>testing</artifactId>
-            <version>0.134</version>
+            <version>0.216-SNAPSHOT</version>
             <scope>test</scope>
         </dependency>
 
         <dependency>
-            <groupId>io.airlift</groupId>
+            <groupId>com.facebook.airlift</groupId>
             <artifactId>json</artifactId>
-            <version>0.134</version>
+            <version>0.216-SNAPSHOT</version>
             <scope>test</scope>
         </dependency>
 
